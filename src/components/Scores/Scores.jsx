@@ -6,8 +6,9 @@ const Score=(props)=>{
         <div>
             {props.scores.map((scores,idx)=>
         <div>
-           <p>Date: {scores.date}</p>
-         <p>{scores.score} </p>          
+            <h4>Test Score Details</h4>
+           <p>Date Administered: {scores.date}</p>
+         <p>Test Score Results:{scores.score} </p>          
         </div>
               )}      
            
